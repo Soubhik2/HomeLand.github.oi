@@ -32,7 +32,7 @@ document.getElementsByTagName('input')[4].addEventListener('click', ()=>{
                 DownLoad: 0,
                 AccountCreateTime: new Date().getTime(),
             }).then(() => {
-                // window.location.href = "Profile.html"
+                 window.location.href = "index.html"
                 document.getElementsByClassName('Error-class')[0].innerHTML = 'Account creat successful'
                 document.getElementsByClassName('Error-class')[0].style.display = 'block'
             });

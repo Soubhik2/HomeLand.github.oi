@@ -20,7 +20,7 @@ document.getElementsByTagName("input")[2].addEventListener("click",()=>{
             var user = userCredential.user;
             // ...
             console.log(auth.currentUser.uid);
-            window.location.href = "Index.html"
+            window.location.href = "index.html"
         })
         .catch((error) => {
             var errorCode = error.code;
