@@ -1,0 +1,155 @@
+body {
+    background-color: #002244;
+}
+
+.titel_font {
+    font-size: 60px;
+    font-weight: bold;
+    color: blue;
+}
+
+.welcomeCon {
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    text-align: center;
+}
+
+.nav-bar-floating {
+    margin: 8px;
+    border-radius: 10px;
+    background-color: #00308F;
+    box-shadow: 5px 5px 5px #13274F;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 6vh 0;
+}
+
+.welcome-text-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* border: 1px solid white; */
+    /* width: 50vh; */
+    font-size: 4vw;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.welcome-text-container button{
+    padding: 1.5vh 5vw;
+    font-size: 2.3vh;
+    margin-top: 30px;
+}
+
+.img-container img{
+    width: 30vw;
+}
+
+.experience-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+}
+
+.experience-text-container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* border: 1px solid white; */
+    /* width: 50vh; */
+    font-size: 3vw;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.system-title{
+    color: white;
+    margin-left: 2vw;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.system_requirements-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4vh 0;
+}
+
+.minimum-system_requirements-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.recommended-system_requirements-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.s-text-container{
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.config{
+    color: white;
+    width: 40vw;
+}
+
+footer{
+    margin-top: 10vh;
+}
+
+.basic-info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.basic-info{
+    color: white;
+    width: 12vw;
+    text-align: center;
+}
+
+.basic-info-title{
+    font-size: 16px;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.info{
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10vh 0 30px 0;
+}
+
+.copyright{
+    color: white;
+}
+
+.link-at{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-at img{
+    width: 25px;
+    margin: 0 1vw;
+}

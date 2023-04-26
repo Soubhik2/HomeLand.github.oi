@@ -1,0 +1,83 @@
+body {
+    background-color: #002244;
+}
+
+.nav-bar-floating {
+    margin: 8px;
+    border-radius: 10px;
+    background-color: #00308F;
+    box-shadow: 5px 5px 5px #13274F;
+  }
+
+.title{
+    color: white;
+    font-size: 30px;
+    margin: 3vh 20px;
+}
+
+.steps{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin: 1vh 20px;
+}
+
+.step{
+    margin-top: 15px;
+}
+
+.step-title{
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+/* .step-contain{
+
+} */
+
+.step-img img{
+    width: 40vw;
+    margin-top: 10px;
+}
+
+.download-container{
+    margin-left: 20px;
+}
+
+.download-title{
+    color: white;
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.download-items{
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.download-item{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.procedure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* .procedure-1{
+
+}
+
+.procedure-2{
+
+} */
+
+.procedure-title{
+    color: white;
+    margin-left: 20px;
+    font-size: 26px;
+    text-transform: capitalize;
+}

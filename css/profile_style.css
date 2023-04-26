@@ -1,0 +1,57 @@
+.user-container{
+    height: calc(100vh - 72px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-field{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 3vh;
+    grid-row-gap: 3vh;
+    font-size: 2.5vh;
+    text-transform: capitalize;
+    margin-bottom: 4vh;
+    /* animation: ro 2s linear infinite; */
+}
+
+.profile-mob{
+    margin-bottom: 0px;
+}
+
+.user-field span{
+    color: white;
+    animation: text-color-animation 4s linear 500ms infinite;
+}
+
+@keyframes ro {
+   0%{
+    transform: rotate(0deg);
+   }
+   50%{
+    transform: rotate(10deg);
+   }
+   75%{
+    transform: rotate(350deg);
+   }
+   100%{
+    transform: rotate(0deg);
+   }
+}
+
+@keyframes text-color-animation {
+    0%{
+        color: yellowgreen;
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: wheat;
+    }
+    100%{
+        color: yellowgreen;
+    }
+}

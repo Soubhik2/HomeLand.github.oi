@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Rubik+Wet+Paint&family=Ubuntu:wght@300&display=swap');
+/* 
+font-family: 'Monoton', cursive;
+font-family: 'Rubik Wet Paint', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+.font-style-Monoton{
+    font-family: 'Monoton', cursive;
+}
+
+.font-style-Rubik_Wet_Paint{
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+.font-style-Ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}

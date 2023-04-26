@@ -1,0 +1,175 @@
+@media screen and (max-width:768px) {
+    .welcome-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 6vh 0;
+    }
+
+    .experience-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 5vh;
+    }
+
+    .basic-info {
+        color: white;
+        width: 18vw;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .welcome-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5vh 0;
+    }
+
+    .experience-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome-text-container {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 100vw;
+        font-size: 15vw;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        margin-bottom: 10vh;
+    }
+
+    .experience-text-container {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 100vw;
+        font-size: 9vw;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        margin-top: 5vh
+    }
+
+    .img-container img {
+        width: 90vw;
+    }
+
+    .system-title {
+        color: white;
+        font-size: 9vw;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    .system_requirements-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 4vh 0;
+        flex-direction: column;
+    }
+
+    .s-text-container {
+        color: white;
+        text-transform: capitalize;
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .config {
+        color: white;
+        width: 100vw;
+        margin-top: 10px;
+        font-size: 5vw;
+    }
+
+    footer {
+        margin-top: 0vh;
+    }
+
+    .basic-info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .basic-info {
+        color: white;
+        width: 45vw;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .copyright {
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px 0 20px 0;
+    }
+
+    .procedure {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .step-img img {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .download-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .field {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5vh 0;
+    }
+
+    .about-game-text {
+        width: 85%;
+        margin-top: 15px;
+    }
+
+    .unity {
+        width: 60%;
+    }
+
+    .game {
+        width: 85%;
+    }
+
+    .profile-mob{
+        margin-bottom: 15px;
+    }
+
+    .user-field {
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 3vh;
+        grid-row-gap: 0vh;
+        font-size: 2.5vh;
+        text-transform: capitalize;
+        margin-bottom: 4vh;
+    }
+}

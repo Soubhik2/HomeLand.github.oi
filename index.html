@@ -1,96 +1,199 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home Land</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-    <style>
-        .titel_font{
-            font-size: 60px;
-            font-weight: bold;
-            color: blue;
-        }
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Land</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/utile.css">
+  <link rel="stylesheet" href="css/index_style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
 
-        .welcomeCon{
-            padding-top: 50px;
-            padding-bottom: 100px;
+  <nav class="nav-bar-floating navbar navbar-expand-lg  navbar-dark">
+    <div class="container-fluid">
 
-            text-align: center;
-        }
-    </style>
+      <a class="navbar-brand font-style-Monoton" href="Profile.html">HOME LAND</a>
 
-    </head>
-  <body>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="Profile.html">Profile</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
-              </li>
+      <div class="collapse navbar-collapse font-style-Ubuntu" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+          </li>
 
-              <li class="nav-item">
-                <a class="nav-link" onclick="DownLoad()" href="#">Download</a>
-              </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="DownLoad()" href="#">Download</a>
+          </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="SignUp.html">Sign Up</a>
-              </li>
-             
-          </div>
-        </div>
-    </nav>
+          <li class="nav-item">
+            <a class="nav-link" href="SignUp.html">Sign Up</a>
+          </li>
 
-    <div class="welcomeCon">
-        <font class="titel_font">Welcome to Home Land</font>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="welcome-container">
+      <div class="welcome-text-container font-style-Rubik_Wet_Paint">
+        <span>Welcome</span>
+        <span>to</span>
+        <span>Home Land</span>
+        <button type="button" onclick="DownLoad()" class="btn btn-primary">DownLoad</button>
+      </div>
+      <div class="img-container">
+        <img src="Images/Zombie.png" alt="">
+      </div>
     </div>
 
-    <div class="container">
-
-        <div class="card mb-3">
-            <img src="Images/P1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Game play</h5>
-              <p class="card-text">This game is in Beta testing and it is not final version. In this game you can experience a open world game like GTA, RDR2</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-
-        <div class="card text-bg-dark">
-            <img src="Images/P2.png" class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">In game map</h5>
-              <p class="card-text">This is a map</p>
-              <p class="card-text"><small>Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-          <br>
-          <div class="card">
-            <h5 class="card-header">Download Link</h5>
-            <div class="card-body">
-              <h5 class="card-title">For Windows</h5>
-              <p class="card-text">Download form random wedside</p>
-              <a href="#" onclick="DownLoad()" class="btn btn-primary">Download</a>
-            </div>
-        </div>
+    <div class="experience-container">
+      <div class="img-container">
+        <img src="Images/Adam.png" alt="">
+      </div>
+      <div class="experience-text-container font-style-Monoton">
+        <span>Experience</span>
+        <span>Extraordinary</span>
+        <span>Graphic</span>
+      </div>
     </div>
-    <br><br>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <div class="system-title font-style-Ubuntu">system requirements</div>
+    <div class="system_requirements-container font-style-Ubuntu">
+      <div class="minimum-system_requirements-container">
+        <div class="s-text-container">
+          <span>minimum system requirements</span>
+        </div>
+        <div class="config">
+          <ul>
+            <li>OS: Windows 7,8,10 64 Bit.</li>
+            <li>CPU: Core i3 @2.4 Ghz.</li>
+            <li>RAM: 4 GB.</li>
+            <li>GPU: DirectX11 Intel UHD Graphics 620 or AMD Radeon vega 3.</li>
+            <li>Storage: 3 GB.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="recommended-system_requirements-container">
+        <div class="s-text-container">
+          <span>recommended system requirements</span>
+        </div>
+        <div class="config">
+          <ul>
+            <li>OS: Windows 7,8,10 64 Bit.</li>
+            <li>CPU: Core i5 @2.8 Ghz.</li>
+            <li>RAM: 8 GB.</li>
+            <li>GPU: DirectX11 NVIDIA GeForce GTX 560 or AMD Radeon HD 7870.</li>
+            <li>Storage: 3 GB.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  
 
-    <script src="Index.js"></script>
+  <footer>
+    <div class="basic-info-container">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
+      <div class="basic-info">
+        <div class="basic-info-title">
+          acknowledgement
+        </div>
+        <div class="info">
+          This game is in Beta program and it is not final version.
+        </div>
+      </div>
+
+      <div class="basic-info">
+        <div class="basic-info-title">
+          about
+        </div>
+        <div class="info">
+          This game is a open world Zombie game with high graphic but lower system requirements. This game similar to Dying Light, The Last of Us.
+        </div>
+      </div>
+
+      <div class="basic-info">
+        <div class="basic-info-title">
+          info
+        </div>
+        <div class="info">
+          This game is design with Unity game engine and used script was C#.
+        </div>
+      </div>
+
+      <div class="basic-info">
+        <div class="basic-info-title">
+          Design by
+        </div>
+        <div class="info">
+          This game is design by Soubhik Mukherjee. Coded by Soubhik Mukherjee. Published by Soubhik Mukherjee.
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-container font-style-Ubuntu">
+      <span class="copyright">Copyright &copy; All rights reserved</span>
+      <div class="link-at">
+        <a href="#"><img src="Images/youtube.png" alt="logo"></a>
+        <a href="#"><img src="Images/facebook.png" alt="logo"></a>
+        <a href="#"><img src="Images/instagram.png" alt="logo"></a>
+      </div>
+    </div>
+
+  </footer>
+  
+
+  <!-- <div class="container">
+
+    <div class="card mb-3">
+      <img src="Images/P1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Game play</h5>
+        <p class="card-text">This game is in Beta testing and it is not final version. In this game you can experience a
+          open world game like GTA, RDR2</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+
+    <div class="card text-bg-dark">
+      <img src="Images/P2.png" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title">In game map</h5>
+        <p class="card-text">This is a map</p>
+        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <br>
+    <div class="card">
+      <h5 class="card-header">Download Link</h5>
+      <div class="card-body">
+        <h5 class="card-title">For Windows</h5>
+        <p class="card-text">Download form random wedside</p>
+        <a href="#" onclick="DownLoad()" class="btn btn-primary">Download</a>
+      </div>
+    </div>
+  </div>
+  <br><br> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+  <script src="js/Index.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Download</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/utile.css">
+  <link rel="stylesheet" href="css/download_style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <nav class="nav-bar-floating navbar navbar-expand-lg  navbar-dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand font-style-Monoton" href="Profile.html">HOME LAND</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse font-style-Ubuntu" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="Index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" onclick="DownLoad()" href="#">Download</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="SignUp.html">Sign Up</a>
+          </li>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="title font-style-Ubuntu">
+    How to DownLoad and Install
+  </div>
+  <div class="procedure font-style-Ubuntu">
+
+    <div class="procedure-1">
+      <div class="procedure-title">first procedure (Installer)</div>
+      
+      <div class="steps">
+
+        <div class="step">
+          <div class="step-title">
+            Step 1
+          </div>
+          <div class="step-contain">
+            Scroll down find 'DownLoad Links'. Click on Link 1 (Installer)
+          </div>
+          <div class="step-img">
+            <img src="Images/procedure/Installer/P1.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-title">
+            Step 2
+          </div>
+          <div class="step-contain">
+            Now open the Homeland.exe Run as administrator
+          </div>
+          <div class="step-img">
+            <img src="Images/procedure/Installer/P2.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-title">
+            Step 3
+          </div>
+          <div class="step-contain">
+            Now install it normally
+          </div>
+          <div class="step-img">
+            <img src="Images/procedure/Installer/P3.jpg" alt="">
+          </div>
+          <div class="step-img">
+            <img src="Images/procedure/Installer/P4.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-title">
+            Step 4
+          </div>
+          <div class="step-contain">
+            Run Home land.exe game
+          </div>
+          <div class="step-img">
+            <img src="Images/procedure/Installer/P5.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="procedure-2">
+      <div class="procedure-title">second procedure (Zip)</div>
+      
+      <div class="steps">
+
+        <div class="step">
+          <div class="step-title">
+            Step 1
+          </div>
+          <div class="step-contain">
+            Scroll down find 'DownLoad Links'. Click on Link 2 (Zip)
+          </div>
+          <div class="step-img">
+            <img src="Images/procedure/Zip/P1.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-title">
+            Step 2
+          </div>
+          <div class="step-contain">
+            Now create a folder name it HomeLand
+          </div>
+          <div class="step-img">
+            <img src="Images/procedure/Zip/P2.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-title">
+            Step 3
+          </div>
+          <div class="step-contain">
+            Now extract the HomeLand_Data.zip into HomeLand folder 
+          </div>
+          <div class="step-img">
+            <img src="Images/procedure/Zip/P3.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-title">
+            Step 4
+          </div>
+          <div class="step-contain">
+            Run Home land.exe game
+          </div>
+          <div class="step-img">
+            <img src="Images/procedure/Zip/P4.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="download-container font-style-Ubuntu">
+    <div class="download-title">
+      DownLoad Links
+    </div>
+    <div class="download-items">
+
+      <div class="download-item card text-bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">Link 1</div>
+        <div class="card-body">
+          <h5 class="card-title">Installer</h5>
+          <p class="card-text">Ver 0.1 Beta Installer (526 MB)</p>
+        </div>
+      </div>
+
+      <div class="download-item card text-bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">Link 2</div>
+        <div class="card-body">
+          <h5 class="card-title">Zip</h5>
+          <p class="card-text">Ver 0.1 Beta Zip (689 MB)</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- <div class="container">
+    <div class="card">
+      <div class="card-header">
+        Download links
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Download Package</h5>
+        <a href="#" class="btn btn-primary">Ver 0.1 Beta Zip (689 MB)</a>
+        <a href="#" class="btn btn-primary">Ver 0.1 Beta Installer (526 MB)</a>
+      </div>
+    </div>
+  </div> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+  <script src="js/DownLoad.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
