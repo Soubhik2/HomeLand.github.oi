@@ -7,7 +7,7 @@
 ### 
 ## Authors
 
-[Soubhik2](https://github.com/Soubhik2/CORE-PHP)
+[Soubhik2](https://github.com/Soubhik2/HomeLand.github.oi)
 
 ## Live Demo
 ### [https://soubhik2.github.io/HomeLand.github.oi/](https://soubhik2.github.io/HomeLand.github.oi/)
