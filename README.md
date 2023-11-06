@@ -14,7 +14,8 @@
 
 <h2 align="left">I code with</h2>
 
-## Screenshots
+###
+
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
   <img width="12" />
@@ -26,7 +27,7 @@
 </div>
 
 ###
-
+## Screenshots
 <div align="left">
   <img height="400" src="https://firebasestorage.googleapis.com/v0/b/resume-website-9493c.appspot.com/o/files%2FScreenshot%20(420).png?alt=media&token=d7fc8db0-9bef-4df0-b4ab-e8b7e5d6daa0"  />
 </div>
